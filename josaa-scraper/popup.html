@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Grabber</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      width: 250px;
+      padding: 10px;
+      text-align: center;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 1em;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #status {
+      margin-top: 10px;
+      font-size: 0.9em;
+      min-height: 20px; /* To prevent layout shift */
+    }
+  </style>
+</head>
+<body>
+  <h3>Grab Table to Clipboard</h3>
+  <button id="grabButton">Copy First Table</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

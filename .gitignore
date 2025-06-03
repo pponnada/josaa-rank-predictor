@@ -1,0 +1,9 @@
+lib/
+share/
+*.pkl
+*.db
+*.csv
+.clj-kondo/
+.lsp/
+bin/
+lib64

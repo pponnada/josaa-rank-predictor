@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Table Grabber",
+  "version": "1.0",
+  "description": "Grabs an HTML table from the page and copies it to the clipboard.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }}
